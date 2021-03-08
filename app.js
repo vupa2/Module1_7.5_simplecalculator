@@ -15,6 +15,9 @@ const myMath = (id) => {
     case 'devide':
       return left / right;
       break;
+    case 'power':
+      return Math.pow(left, right);
+      break;
     default :
       return 0;
   }
